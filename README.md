@@ -1,11 +1,11 @@
 # Automated-Vacuum-cleaner
-Automated Vacuum Cleaner
+Automated Vacuum Cleaner.
 An innovative robotic vacuum cleaner designed to simplify cleaning tasks by leveraging ultrasonic sensors, Arduino-based programming, and efficient motorized components.
 
 Project Overview
 This project presents a robotic vacuum cleaner capable of autonomously sweeping and mopping. It utilizes ultrasonic sensors to navigate and detect obstacles, ensuring effective and hands-free cleaning in various environments such as homes, malls, hospitals, and railway stations.
 
-Features
+Features:
 Autonomous navigation with obstacle detection
 Dual functionalities: sweeping and mopping
 Compact design for cleaning tight spaces
@@ -31,23 +31,24 @@ Working Principle:
 The ultrasonic sensor acts as the robot's eyes, transmitting and receiving signals to measure distances.
 The Arduino processes these inputs and directs the motors accordingly to avoid obstacles.
 Simultaneously, the vacuum motor provides suction to collect dust, and the mop motor assists in cleaning.
+
 Code Functionality:
 The Arduino program enables the robot to navigate, stop for obstacles, and clean surfaces efficiently.
 
-Results
+Results:
 Without Obstacle: Indicator LED and buzzer remain off, allowing the robot to move freely.
 With Obstacle: Indicator LED and buzzer activate, and the robot changes direction to avoid collision.
-Advantages
+Advantages:
 Hands-free operation and compact design
 Saves time and energy with efficient cleaning
 Accesses hard-to-reach areas
 Supports scheduled cleaning
-Limitations
+Limitations:
 Cost-intensive initial setup
 Risk of getting stuck or flipped over
 Limited battery life and dustbin capacity
 Ineffectiveness on stairs and thick carpets
-Future Developments
+Future Developments:
 Integration with security cameras for dual functionality
 Metal scanners to avoid picking up valuable items
 Edge-detection features for cleaning surfaces like tables
