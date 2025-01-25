@@ -1,6 +1,8 @@
 Automated Vacuum Cleaner:
 An innovative robotic vacuum cleaner designed to simplify cleaning tasks by leveraging ultrasonic sensors, Arduino-based programming, and efficient motorized components.
 
+The link of the project is in the link file. You can find this in this repo itself.
+
 Project Overview:
 This project presents a robotic vacuum cleaner capable of autonomously sweeping and mopping. It utilizes ultrasonic sensors to navigate and detect obstacles, ensuring effective and hands-free cleaning in various environments such as homes, malls, hospitals, and railway stations.
 
