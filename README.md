@@ -1,19 +1,19 @@
-Automated Vacuum Cleaner:
+# Automated Vacuum Cleaner:
 An innovative robotic vacuum cleaner designed to simplify cleaning tasks by leveraging ultrasonic sensors, Arduino-based programming, and efficient motorized components.
 
-The link of the project is in the link file. You can find this in this repo itself.
+# The link of the project is in the link file. You can find this in this repo itself.
 
-Project Overview:
+## Project Overview:
 This project presents a robotic vacuum cleaner capable of autonomously sweeping and mopping. It utilizes ultrasonic sensors to navigate and detect obstacles, ensuring effective and hands-free cleaning in various environments such as homes, malls, hospitals, and railway stations.
 
-Features:
+## Features:
 Autonomous navigation with obstacle detection
 Dual functionalities: sweeping and mopping
 Compact design for cleaning tight spaces
 Easy-to-use interface with scheduled cleaning options  
 Low maintenance and long-lasting operation
 
-Components:
+## Components:
 Arduino Uno R3: Open-source microcontroller for hardware control
 Ultrasonic Sensor: Obstacle detection and distance measurement
 Micro Servo Motor: Precise angular movement
@@ -25,37 +25,37 @@ RGB-LED Indicator: Status indication
 Slide Switch: Manual power control
 Power Supply: Batteries for mobility
 
-Circuit and Working
+## Circuit and Working
 
-Circuit Connections:
+### Circuit Connections:
 Components like the ultrasonic sensor, motors, and LEDs are connected to the Arduino board via an H-Bridge driver. A slide switch is used to control the power supply to the vacuum motor and mop.
 
-Working Principle:
+### Working Principle:
 
 The ultrasonic sensor acts as the robot's eyes, transmitting and receiving signals to measure distances.
 The Arduino processes these inputs and directs the motors accordingly to avoid obstacles.
 Simultaneously, the vacuum motor provides suction to collect dust, and the mop motor assists in cleaning.
 
-Code Functionality:
+## Code Functionality:
 The Arduino program enables the robot to navigate, stop for obstacles, and clean surfaces efficiently.
 
-Results
+## Results
 Without Obstacle: Indicator LED and buzzer remain off, allowing the robot to move freely.
 With Obstacle: Indicator LED and buzzer activate, and the robot changes direction to avoid collision.
-Advantages
+### Advantages
 Hands-free operation and compact design
 Saves time and energy with efficient cleaning
 Accesses hard-to-reach areas
 Supports scheduled cleaning
-Limitations
+### Limitations
 Cost-intensive initial setup
 Risk of getting stuck or flipped over
 Limited battery life and dustbin capacity
 Ineffectiveness on stairs and thick carpets
-Future Developments
+### Future Developments
 Integration with security cameras for dual functionality
 Metal scanners to avoid picking up valuable items
 Edge-detection features for cleaning surfaces like tables
-Tools and Platform
+## Tools and Platform
 Platform: Tinkercad
 Programming: Arduino IDE
